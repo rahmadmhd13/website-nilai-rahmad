@@ -1,0 +1,66 @@
+/* Mengatur gaya umum untuk body */
+body {
+    font-family: Arial, sans-serif; /* Menggunakan font Arial, fallback ke sans-serif */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+    display: flex; /* Menggunakan flexbox untuk layout fleksibel */
+    flex-direction: column; /* Menyusun elemen secara vertikal (kolom) */
+    justify-content: center; /* Memusatkan konten secara vertikal */
+    align-items: center; /* Memusatkan konten secara horizontal */
+    height: 100vh; /* Mengatur tinggi body menjadi 100% tinggi viewport */
+}
+
+form {
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 0 0 20px;
+    padding: 15px;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+h2 {
+    text-align:center;
+    font-size: 30px;
+    
+}
+label{
+    font-size: 20px;
+    color: black;
+}
+label [for="nama"] {
+    width: 20px;
+    padding: 2px 0;
+    border-radius: 5px;
+}
+label[for="nilai"] {
+    font-size: 20px;
+    width: 20px;
+    padding: 2px 0;
+    border-radius: 5px;
+
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+input[type="number"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid;
+}
+button[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid;
+}
